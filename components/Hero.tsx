@@ -12,9 +12,10 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-center">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-blue-400 text-sm font-medium mb-6">
-          <span className="flex h-2 w-2 rounded-full bg-blue-400 animate-pulse"></span>
-          Matrículas Abertas - Turma Limitada
+        <div className="mb-4">
+          <span className="font-roboto text-orange-400 font-bold uppercase tracking-wider text-lg md:text-2xl">
+            MENTORIA DE PROGRAMAÇÃO
+          </span>
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
@@ -23,14 +24,22 @@ export const Hero: React.FC = () => {
         </h1>
 
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-400 mb-10">
-          Uma jornada de mentoria transformadora. 10 Encontros ao vivo (20h) para você dominar a lógica, construir APIs robustas e integrar IA nos seus projetos. Sem atalhos, com profundidade.
+          Uma jornada de mentoria transformadora. 10 encontros ao vivo, uma hora cada, só você e o professor. Dominando lógica, construindo APIs robustas e integrando IA. Sem atalhos, com profundidade.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button size="lg" onClick={() => document.getElementById('enroll')?.scrollIntoView({ behavior: 'smooth' })}>
-            Quero Garantir Minha Vaga
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <a
+            href="https://www.asaas.com/c/bze9klap4k5mygrr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <Button size="lg">
+              Quero Garantir Minha Vaga
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </a>
+
           <Button variant="outline" size="lg" onClick={() => document.getElementById('curriculum')?.scrollIntoView({ behavior: 'smooth' })}>
             Ver Cronograma
           </Button>

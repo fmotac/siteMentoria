@@ -44,31 +44,31 @@ const modules: ModuleItem[] = [
   },
   {
     id: 5,
-    title: "Encontro 5: Análise de Sistemas",
-    description: "Planejar antes de codificar. Requisitos Funcionais e Não-Funcionais, Casos de Uso, Histórias de Usuário e Diagramas ER (Entidade-Relacionamento).",
-    tags: ["Modelagem", "Requisitos", "Diagramas"],
-    icon: FileSearch
-  },
-  {
-    id: 6,
-    title: "Encontro 6: Backend & APIs",
-    description: "O cérebro da aplicação. Arquitetura Cliente-Servidor, Protocolo HTTP e construção de APIs RESTful robustas. Métodos GET, POST, PUT, DELETE.",
-    tags: ["Node.js", "Python", "REST", "HTTP"],
-    icon: Server
-  },
-  {
-    id: 7,
-    title: "Encontro 7: Banco de Dados",
+    title: "Encontro 5: Banco de Dados",
     description: "Persistência de dados. SQL vs NoSQL. Queries essenciais (SELECT, JOINs), Transações ACID e uso de ORMs para abstração.",
     tags: ["SQL", "ORM", "Transações"],
     icon: HardDrive
   },
   {
-    id: 8,
-    title: "Encontro 8: Frontend & Integração",
+    id: 6,
+    title: "Encontro 6: Frontend",
     description: "A interface do usuário. HTML Semântico, CSS Flexbox/Grid e Manipulação do DOM. Consumo de APIs com Fetch e acessibilidade.",
     tags: ["HTML/CSS", "DOM", "Fetch API"],
     icon: Layout
+  },
+  {
+    id: 7,
+    title: "Encontro 7: Análise de Sistemas",
+    description: "Planejar antes de codificar. Requisitos Funcionais e Não-Funcionais, Casos de Uso, Histórias de Usuário e Diagramas ER (Entidade-Relacionamento).",
+    tags: ["Modelagem", "Requisitos", "Diagramas"],
+    icon: FileSearch
+  },
+  {
+    id: 8,
+    title: "Encontro 8: Backend & APIs",
+    description: "O cérebro da aplicação. Arquitetura Cliente-Servidor, Protocolo HTTP e construção de APIs RESTful robustas. Métodos GET, POST, PUT, DELETE.",
+    tags: ["Node.js", "Python", "REST", "HTTP"],
+    icon: Server
   },
   {
     id: 9,

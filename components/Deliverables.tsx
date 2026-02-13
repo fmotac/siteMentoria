@@ -5,24 +5,17 @@ import { Button } from './Button';
 const deliverables = [
   {
     icon: Clock,
-    title: "20 Horas Ao Vivo",
-    description: "10 encontros semanais de 2 horas pelo Google Meet. Interação real, tire dúvidas na hora e participe de discussões técnicas profundas.",
+    title: "10 Horas Ao Vivo",
+    description: "10 encontros de uma hora cada, só você e o professor. Interação real, tire dúvidas na hora e participe de discussões técnicas profundas.",
     color: "text-blue-400",
     bg: "bg-blue-400/10"
   },
   {
     icon: Video,
     title: "Gravações e Vídeo aulas",
-    description: "Perdeu um encontro? Não se preocupe. Todas as aulas ficam gravadas e você tem acesso para rever quando quiser.",
+    description: "Acesso completo ao curso com todas as aulas gravadas por 1 ano. Revise quando quiser, no seu próprio ritmo, quantas vezes precisar.",
     color: "text-purple-400",
     bg: "bg-purple-400/10"
-  },
-  {
-    icon: Users,
-    title: "Grupo Exclusivo",
-    description: "Networking de alto nível no WhatsApp. Troque experiências, consiga indicações e tire dúvidas com a comunidade e o mentor.",
-    color: "text-green-400",
-    bg: "bg-green-400/10"
   },
   {
     icon: FileCode,
@@ -91,9 +84,16 @@ export const Deliverables: React.FC = () => {
             As vagas são limitadas para garantir a qualidade do acompanhamento individual. Garanta sua presença na próxima turma.
           </p>
           <div id="enroll" className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <Button size="lg" className="w-full sm:w-auto shadow-blue-500/50 animate-pulse-slow">
-              Sim! Quero Minha Vaga Agora
-            </Button>
+            <a
+              href="https://www.asaas.com/c/bze9klap4k5mygrr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full sm:w-auto"
+            >
+              <Button size="lg" className="shadow-blue-500/50 animate-pulse-slow w-full sm:w-auto">
+                Sim! Quero Minha Vaga Agora
+              </Button>
+            </a>
             <p className="text-xs text-slate-500 mt-2 sm:mt-0">
               * Garantia incondicional de 7 dias
             </p>
