@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Code2, Rocket, BrainCircuit } from 'lucide-react';
+import { ArrowRight, Code2, Rocket, BrainCircuit, Users, MessageSquare, Clock, UserCheck } from 'lucide-react';
 import { Button } from './Button';
 
 export const Hero: React.FC = () => {
@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="mb-4">
           <span className="font-roboto text-orange-400 font-bold uppercase tracking-wider text-lg md:text-2xl">
-            MENTORIA DE PROGRAMAÇÃO
+            MENTORIA EM DESENVOLVIMENTO DE SISTEMAS - INDIVIDUAL OU EM GRUPO
           </span>
         </div>
 
@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
         </h1>
 
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-400 mb-10">
-          Uma jornada de mentoria transformadora. 10 encontros ao vivo, uma hora cada, só você e o professor. Dominando lógica, construindo APIs robustas e integrando IA. Sem atalhos, com profundidade.
+          Uma jornada de mentoria transformadora. 10 encontros ao vivo, uma hora cada, só você e o professor. Dominando lógica, orientação a objetos, frontend, banco de dados, backend, construindo APIs e engenharia de software assistida por IA. 
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -45,21 +45,29 @@ export const Hero: React.FC = () => {
           </Button>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto text-left">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-left">
           <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700">
-            <Code2 className="h-10 w-10 text-blue-400 mb-4" />
-            <h3 className="font-bold text-xl mb-2">JS + Python</h3>
-            <p className="text-slate-400 text-sm">Aprenda as duas linguagens mais poderosas do mercado simultaneamente.</p>
+            <UserCheck className="h-10 w-10 text-blue-400 mb-4" />
+            <h3 className="font-bold text-xl mb-2">Aprendizado Personalizado</h3>
+            <p className="text-slate-400 text-sm">Foco nas suas metas e dúvidas, com conteúdo adaptado ao seu nível.</p>
           </div>
+
           <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700">
-            <BrainCircuit className="h-10 w-10 text-accent-400 mb-4" />
-            <h3 className="font-bold text-xl mb-2">Integração com IA</h3>
-            <p className="text-slate-400 text-sm">Vá além do básico: aprenda engenharia de prompts técnica e automação.</p>
+            <MessageSquare className="h-10 w-10 text-accent-400 mb-4" />
+            <h3 className="font-bold text-xl mb-2">Feedback em Tempo Real</h3>
+            <p className="text-slate-400 text-sm">Corretivas instantâneas e direcionamento constante para seu crescimento.</p>
           </div>
+
           <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700">
-            <Rocket className="h-10 w-10 text-green-400 mb-4" />
-            <h3 className="font-bold text-xl mb-2">Projetos Reais</h3>
-            <p className="text-slate-400 text-sm">Saia com um portfólio completo: E-commerce, Agendamentos e muito mais.</p>
+            <Clock className="h-10 w-10 text-green-400 mb-4" />
+            <h3 className="font-bold text-xl mb-2">Ritmo Flexível</h3>
+            <p className="text-slate-400 text-sm">As aulas acompanham seu ritmo, sem pressão de prazos ou turmas fechadas.</p>
+          </div>
+
+          <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700">
+            <Users className="h-10 w-10 text-yellow-400 mb-4" />
+            <h3 className="font-bold text-xl mb-2">Conexão Humana</h3>
+            <p className="text-slate-400 text-sm">Relacionamento direto com mentor experiente, mais apoio que um curso gravado.</p>
           </div>
         </div>
       </div>
