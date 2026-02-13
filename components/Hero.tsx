@@ -7,8 +7,8 @@ export const Hero: React.FC = () => {
     <div className="relative overflow-hidden pt-20 pb-16 lg:pt-32 lg:pb-24">
       {/* Background decoration */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full z-0 opacity-20 pointer-events-none">
-         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
-         <div className="absolute top-20 right-10 w-72 h-72 bg-accent-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+        <div className="absolute top-20 right-10 w-72 h-72 bg-accent-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10 text-center">
@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
         </h1>
 
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-400 mb-10">
-          Uma jornada de mentoria transformadora. 10 encontros ao vivo, uma hora cada, só você e o professor. Dominando lógica, orientação a objetos, frontend, banco de dados, backend, construindo APIs e engenharia de software assistida por IA. 
+          Uma jornada de mentoria transformadora. 10 encontros ao vivo, uma hora cada, só você e o professor. Dominando lógica, orientação a objetos, frontend, banco de dados, backend, construindo APIs e engenharia de software assistida por IA.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

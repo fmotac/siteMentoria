@@ -3,7 +3,10 @@ import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { Curriculum } from './components/Curriculum';
 import { Projects } from './components/Projects';
+import { Testimonials } from './components/Testimonials';
+import { Bonus } from './components/Bonus';
 import { Deliverables } from './components/Deliverables';
+import { CallToAction } from './components/CallToAction';
 import { Footer } from './components/Footer';
 
 function App() {
@@ -13,7 +16,10 @@ function App() {
       <Features />
       <Curriculum />
       <Projects />
+      <Testimonials />
       <Deliverables />
+      <Bonus />
+      <CallToAction />
       <Footer />
       <a
         href="https://wa.me/5511992268175"
