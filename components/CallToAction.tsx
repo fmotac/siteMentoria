@@ -18,12 +18,20 @@ export const CallToAction: React.FC = () => {
                             className="inline-block w-full sm:w-auto"
                         >
                             <Button size="lg" className="shadow-blue-500/50 animate-pulse-slow w-full sm:w-auto">
-                                Sim! Quero Minha Vaga Agora
+                                Sim! Quero Minha Vaga INDIVIDUAL Agora
                             </Button>
                         </a>
-                        <p className="text-xs text-slate-500 mt-2 sm:mt-0">
-                            * Garantia incondicional de 7 dias
-                        </p>
+                        <a
+                            href="https://www.asaas.com/c/c43w8guro5r7grq6"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block w-full sm:w-auto"
+                        >
+                            <Button size="lg" className="shadow-blue-500/50 animate-pulse-slow w-full sm:w-auto" variant='outline'>
+                                Sim! Quero Minha Vaga EM GRUPO Agora
+                            </Button>
+                        </a>
+
                     </div>
                 </div>
             </div>

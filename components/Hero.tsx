@@ -35,7 +35,19 @@ export const Hero: React.FC = () => {
             className="inline-block"
           >
             <Button size="lg">
-              Quero Garantir Minha Vaga
+              Quero a MENTORIA Individual
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </a>
+
+          <a
+            href="https://www.asaas.com/c/c43w8guro5r7grq6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <Button size="lg">
+              Quero a MENTORIA em grupo
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </a>
