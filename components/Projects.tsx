@@ -30,12 +30,12 @@ const projects: Project[] = [
 
 export const Projects: React.FC = () => {
   return (
-    <section className="py-20 bg-slate-950">
+    <section className="py-10 bg-slate-950">
       <div className="container mx-auto px-4">
-        <div className="mb-12">
+        <div className="mb-6">
           <span className="text-blue-500 font-bold tracking-wider uppercase text-sm">Portfólio Prático</span>
-          <h2 className="text-3xl md:text-4xl font-bold mt-2">O Que Você Vai Construir</h2>
-          <p className="text-slate-400 mt-4 max-w-2xl">
+          <h2 className="text-3xl md:text-4xl font-bold mt-1">O Que Você Vai Construir</h2>
+          <p className="text-slate-400 mt-2 max-w-2xl">
             A teoria só fixa com a prática. Durante a mentoria, você desenvolverá projetos reais que simulam desafios da indústria.
           </p>
         </div>
@@ -44,9 +44,9 @@ export const Projects: React.FC = () => {
           {projects.map((project, idx) => (
             <div key={idx} className="group relative overflow-hidden rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all duration-300">
               <div className="aspect-video overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-60 group-hover:opacity-100"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80"></div>

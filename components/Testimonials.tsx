@@ -13,14 +13,14 @@ const videos = [
 
 export const Testimonials: React.FC = () => {
     return (
-        <section className="py-20 bg-slate-950 relative">
+        <section className="py-10 bg-slate-950 relative">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-16">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-bold mb-4">
+                <div className="text-center mb-8">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-bold mb-2">
                         <MessageSquareQuote size={16} />
                         O que dizem nossos alunos
                     </div>
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                    <h2 className="text-3xl md:text-5xl font-bold mb-3">
                         Histórias de <span className="gradient-text">Sucesso</span>
                     </h2>
                     <p className="text-slate-400 text-lg max-w-2xl mx-auto">

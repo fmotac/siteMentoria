@@ -8,6 +8,7 @@ import { Bonus } from './components/Bonus';
 import { Deliverables } from './components/Deliverables';
 import { CallToAction } from './components/CallToAction';
 import { Footer } from './components/Footer';
+import { Instructor } from './components/Instructor';
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <Hero />
       <Features />
       <Curriculum />
-      <Projects />
-      <Testimonials />
       <Deliverables />
       <Bonus />
+      <Projects />
+      <Testimonials />
+      <Instructor />
       <CallToAction />
       <Footer />
       <a

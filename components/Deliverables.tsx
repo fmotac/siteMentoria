@@ -1,5 +1,5 @@
 import React from 'react';
-import { Video, Users, CheckCircle, FileCode, Award, Clock, Headphones } from 'lucide-react';
+import { Video, Users, CheckCircle, FileCode, Award, Clock, Headphones, Rocket } from 'lucide-react';
 import { Button } from './Button';
 
 const deliverables = [
@@ -37,23 +37,30 @@ const deliverables = [
     description: "Ao final da jornada, receba um certificado comprovando sua formação em Lógica, Full Stack e Integração com IA.",
     color: "text-yellow-400",
     bg: "bg-yellow-400/10"
+  },
+  {
+    icon: Rocket,
+    title: "Pacote Completo",
+    description: "10 encontros ao vivo com especialista (1h), gravações completas, 6 meses de suporte via WhatsApp, 12 meses de acesso, coleção de ebooks ADS e certificado incluso.",
+    color: "text-green-400",
+    bg: "bg-green-400/10"
   }
 ];
 
 export const Deliverables: React.FC = () => {
   return (
-    <section id="deliverables" className="py-24 bg-slate-900 relative overflow-hidden">
+    <section id="deliverables" className="py-10 bg-slate-900 relative overflow-hidden">
       {/* Decorative Circles */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/2 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 translate-y-1/2 translate-x-1/2 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl"></div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-bold mb-4">
+        <div className="text-center max-w-3xl mx-auto mb-8">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-bold mb-2">
             <CheckCircle size={16} />
             Tudo Incluso
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+          <h2 className="text-3xl md:text-5xl font-bold mb-3">
             O Que Você Recebe ao <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400">
               Entrar na Mentoria

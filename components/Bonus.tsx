@@ -3,7 +3,7 @@ import { Gift, BookOpen, Star, CheckCircle } from 'lucide-react';
 
 export const Bonus = () => {
     return (
-        <section className="py-20 bg-slate-900/50 border-t border-slate-800 relative overflow-hidden">
+        <section className="py-10 bg-slate-900/50 border-t border-slate-800 relative overflow-hidden">
             {/* Background Effects */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
                 <div className="absolute top-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
@@ -11,12 +11,12 @@ export const Bonus = () => {
             </div>
 
             <div className="container mx-auto px-4 relative z-10">
-                <div className="text-center mb-12">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 font-medium text-sm mb-6">
+                <div className="text-center mb-8">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 font-medium text-sm mb-4">
                         <Gift className="w-4 h-4" />
                         <span className="uppercase tracking-wider">Bônus Exclusivo</span>
                     </div>
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                    <h2 className="text-3xl md:text-5xl font-bold mb-3">
                         <span className="text-slate-100">Coleção </span>
                         <span className="gradient-text">Profissionalizante</span>
                     </h2>

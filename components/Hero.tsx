@@ -4,7 +4,7 @@ import { Button } from './Button';
 
 export const Hero: React.FC = () => {
   return (
-    <div className="relative overflow-hidden pt-20 pb-16 lg:pt-32 lg:pb-24">
+    <div className="relative overflow-hidden pt-10 pb-8 lg:pt-16 lg:pb-12">
       {/* Background decoration */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full z-0 opacity-20 pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
@@ -18,12 +18,12 @@ export const Hero: React.FC = () => {
           </span>
         </div>
 
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4 leading-tight">
           Dos Fundamentos à <br />
           <span className="gradient-text">Inteligência Artificial</span>
         </h1>
 
-        <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-400 mb-10">
+        <p className="max-w-3xl mx-auto text-lg md:text-xl text-slate-400 mb-6">
           Uma jornada de mentoria transformadora. 10 encontros ao vivo, uma hora cada, só você e o professor. Dominando lógica, orientação a objetos, frontend, banco de dados, backend, construindo APIs e engenharia de software assistida por IA.
         </p>
 
@@ -57,7 +57,7 @@ export const Hero: React.FC = () => {
           </Button>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-left">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto text-left">
           <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-2xl border border-slate-700">
             <UserCheck className="h-10 w-10 text-blue-400 mb-4" />
             <h3 className="font-bold text-xl mb-2">Aprendizado Personalizado</h3>

@@ -3,11 +3,11 @@ import { Button } from './Button';
 
 export const CallToAction: React.FC = () => {
     return (
-        <section className="py-20 bg-slate-900">
+        <section className="py-10 bg-slate-900">
             <div className="container mx-auto px-4">
-                <div className="text-center bg-gradient-to-b from-slate-800 to-slate-900 rounded-3xl p-8 md:p-12 border border-slate-700 shadow-2xl">
-                    <h3 className="text-2xl md:text-3xl font-bold mb-4">Pronto para transformar sua carreira?</h3>
-                    <p className="text-slate-400 mb-8 max-w-xl mx-auto">
+                <div className="text-center bg-gradient-to-b from-slate-800 to-slate-900 rounded-3xl p-6 md:p-8 border border-slate-700 shadow-2xl">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-2">Pronto para transformar sua carreira?</h3>
+                    <p className="text-slate-400 mb-4 max-w-xl mx-auto">
                         As vagas são limitadas para garantir a qualidade do acompanhamento individual. Garanta sua presença na próxima turma.
                     </p>
                     <div id="enroll" className="flex flex-col sm:flex-row justify-center items-center gap-4">

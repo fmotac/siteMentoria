@@ -1,16 +1,16 @@
 import React from 'react';
 import { ModuleItem } from '../types';
-import { 
-  Terminal, 
-  Repeat, 
-  Database, 
-  Box, 
-  FileSearch, 
-  Server, 
-  HardDrive, 
-  Layout, 
-  Bot, 
-  Rocket 
+import {
+  Terminal,
+  Repeat,
+  Database,
+  Box,
+  FileSearch,
+  Server,
+  HardDrive,
+  Layout,
+  Bot,
+  Rocket
 } from 'lucide-react';
 
 const modules: ModuleItem[] = [
@@ -88,10 +88,10 @@ const modules: ModuleItem[] = [
 
 export const Curriculum: React.FC = () => {
   return (
-    <section id="curriculum" className="py-20 bg-slate-900">
+    <section id="curriculum" className="py-10 bg-slate-900">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2">
             A Estrutura do <span className="text-blue-500">Programa</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
@@ -110,7 +110,7 @@ export const Curriculum: React.FC = () => {
 
               return (
                 <div key={module.id} className={`flex flex-col md:flex-row items-center ${isEven ? 'md:flex-row-reverse' : ''}`}>
-                  
+
                   {/* Content Card */}
                   <div className="w-full md:w-1/2 p-4">
                     <div className="bg-slate-800 border border-slate-700 p-6 rounded-xl hover:border-blue-500/50 transition-colors shadow-lg">
